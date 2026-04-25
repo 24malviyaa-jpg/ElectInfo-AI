@@ -1,0 +1,18 @@
+# Problem Statement
+
+## Project: ElectInfo AI — Election & Candidate Information Agent
+
+## Problem
+Election and candidate information changes rapidly. Large Language Models (LLMs) have a knowledge cutoff date and cannot provide real-time or recent election data. Users searching for current election results, candidate details, or voting information may receive outdated or hallucinated responses from a standard LLM.
+
+## Solution
+We built an Agentic AI system that:
+- Uses Tavily Search API as a tool to fetch live, real-time election data from the web
+- Processes and structures the retrieved information into a clear answer
+- Evaluates the response quality using an LLM-as-Judge module (relevance, accuracy, clarity)
+
+## Why Agentic AI?
+A standard LLM cannot browse the web. An agent with tool-use capability can search, retrieve, and reason over live data — making it far more reliable for time-sensitive topics like elections.
+
+## Target Users
+Students, journalists, voters, and anyone seeking factual, up-to-date election information.
